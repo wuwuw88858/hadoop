@@ -1,0 +1,298 @@
+2019-09-21 15:15:51 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(48) -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-21 15:15:51 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(61) -Using emulated InjectSessionExpiration
+2019-09-21 15:15:51 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(308) -Starting
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:host.name=CY-20190824XGJX
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.version=1.8.0_121
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.vendor=Oracle Corporation
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.home=F:\jdk1.8.0_121\jre
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.class.path=F:\jdk1.8.0_121\jre\lib\charsets.jar;F:\jdk1.8.0_121\jre\lib\deploy.jar;F:\jdk1.8.0_121\jre\lib\ext\access-bridge-32.jar;F:\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;F:\jdk1.8.0_121\jre\lib\ext\dnsns.jar;F:\jdk1.8.0_121\jre\lib\ext\jaccess.jar;F:\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;F:\jdk1.8.0_121\jre\lib\ext\localedata.jar;F:\jdk1.8.0_121\jre\lib\ext\nashorn.jar;F:\jdk1.8.0_121\jre\lib\ext\sunec.jar;F:\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;F:\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;F:\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;F:\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\jdk1.8.0_121\jre\lib\javaws.jar;F:\jdk1.8.0_121\jre\lib\jce.jar;F:\jdk1.8.0_121\jre\lib\jfr.jar;F:\jdk1.8.0_121\jre\lib\jfxswt.jar;F:\jdk1.8.0_121\jre\lib\jsse.jar;F:\jdk1.8.0_121\jre\lib\management-agent.jar;F:\jdk1.8.0_121\jre\lib\plugin.jar;F:\jdk1.8.0_121\jre\lib\resources.jar;F:\jdk1.8.0_121\jre\lib\rt.jar;F:\project\zkCurator\target\classes;F:\apache-maven-3.6.1\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;F:\apache-maven-3.6.1\repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\apache-maven-3.6.1\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;F:\apache-maven-3.6.1\repository\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-recipes\4.2.0\curator-recipes-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-framework\4.2.0\curator-framework-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-client\4.2.0\curator-client-4.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;F:\apache-maven-3.6.1\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;F:\apache-maven-3.6.1\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;F:\apache-maven-3.6.1\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;F:\apache-maven-3.6.1\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;F:\apache-maven-3.6.1\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;F:\apache-maven-3.6.1\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;F:\apache-maven-3.6.1\repository\junit\junit\4.12\junit-4.12.jar;F:\apache-maven-3.6.1\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\IntelliJ IDEA 2017.2\lib\idea_rt.jar
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.library.path=F:\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;F:\scala\bin;F:\Git\cmd;F:\jdk1.8.0_121\bin;C:\Users\MyPC\AppData\Local\Microsoft\WindowsApps;F:\scala\bin;F:\apache-maven-3.6.1\bin;;.
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.io.tmpdir=C:\Users\MyPC\AppData\Local\Temp\
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.compiler=<NA>
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.name=Windows 10
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.arch=x86
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.version=10.0
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.name=MyPC
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.home=C:\Users\MyPC
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.dir=F:\project\zkCurator
+2019-09-21 15:16:00 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(442) -Initiating client connection, connectString=node01:2181,node02:2181,node03:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a48474
+2019-09-21 15:16:00 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(356) -Default schema
+2019-09-21 15:16:03 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node02:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-21 15:16:03 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node02:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-21 15:16:06 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-21 15:16:06 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-21 15:16:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/192.168.52.100:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-21 15:16:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(879) -Socket connection established to node01/192.168.52.100:2181, initiating session
+2019-09-21 15:16:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1303) -Session establishment complete on server node01/192.168.52.100:2181, sessionid = 0x16d5280da210000, negotiated timeout = 40000
+2019-09-21 15:16:07 [ INFO] - org.apache.curator.framework.state.ConnectionStateManager -ConnectionStateManager.java(251) -State change: CONNECTED
+2019-09-21 15:16:07 [ WARN] - org.apache.curator.utils.ZKPaths -ZKPaths.java(78) -The version of ZooKeeper being used doesn't support Container nodes. CreateMode.PERSISTENT will be used instead.
+2019-09-21 15:16:07 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(955) -backgroundOperationsLoop exiting
+2019-09-21 15:16:07 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(693) -Session: 0x16d5280da210000 closed
+2019-09-21 15:16:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(522) -EventThread shut down for session: 0x16d5280da210000
+2019-09-22 00:18:16 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(48) -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-22 00:18:16 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(61) -Using emulated InjectSessionExpiration
+2019-09-22 00:18:16 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(308) -Starting
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:host.name=CY-20190824XGJX
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.version=1.8.0_121
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.vendor=Oracle Corporation
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.home=F:\jdk1.8.0_121\jre
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.class.path=F:\jdk1.8.0_121\jre\lib\charsets.jar;F:\jdk1.8.0_121\jre\lib\deploy.jar;F:\jdk1.8.0_121\jre\lib\ext\access-bridge-32.jar;F:\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;F:\jdk1.8.0_121\jre\lib\ext\dnsns.jar;F:\jdk1.8.0_121\jre\lib\ext\jaccess.jar;F:\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;F:\jdk1.8.0_121\jre\lib\ext\localedata.jar;F:\jdk1.8.0_121\jre\lib\ext\nashorn.jar;F:\jdk1.8.0_121\jre\lib\ext\sunec.jar;F:\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;F:\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;F:\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;F:\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\jdk1.8.0_121\jre\lib\javaws.jar;F:\jdk1.8.0_121\jre\lib\jce.jar;F:\jdk1.8.0_121\jre\lib\jfr.jar;F:\jdk1.8.0_121\jre\lib\jfxswt.jar;F:\jdk1.8.0_121\jre\lib\jsse.jar;F:\jdk1.8.0_121\jre\lib\management-agent.jar;F:\jdk1.8.0_121\jre\lib\plugin.jar;F:\jdk1.8.0_121\jre\lib\resources.jar;F:\jdk1.8.0_121\jre\lib\rt.jar;F:\project\zkCurator\target\classes;F:\apache-maven-3.6.1\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;F:\apache-maven-3.6.1\repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\apache-maven-3.6.1\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;F:\apache-maven-3.6.1\repository\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-recipes\4.2.0\curator-recipes-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-framework\4.2.0\curator-framework-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-client\4.2.0\curator-client-4.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;F:\apache-maven-3.6.1\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;F:\apache-maven-3.6.1\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;F:\apache-maven-3.6.1\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;F:\apache-maven-3.6.1\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;F:\apache-maven-3.6.1\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;F:\apache-maven-3.6.1\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;F:\apache-maven-3.6.1\repository\junit\junit\4.12\junit-4.12.jar;F:\apache-maven-3.6.1\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\IntelliJ IDEA 2017.2\lib\idea_rt.jar
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.library.path=F:\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;F:\scala\bin;F:\Git\cmd;F:\jdk1.8.0_121\bin;C:\Users\MyPC\AppData\Local\Microsoft\WindowsApps;F:\scala\bin;F:\apache-maven-3.6.1\bin;;.
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.io.tmpdir=C:\Users\MyPC\AppData\Local\Temp\
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.compiler=<NA>
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.name=Windows 10
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.arch=x86
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.version=10.0
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.name=MyPC
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.home=C:\Users\MyPC
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.dir=F:\project\zkCurator
+2019-09-22 00:18:25 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(442) -Initiating client connection, connectString=node01:2181,node02:2181,node03:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a48474
+2019-09-22 00:18:25 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(356) -Default schema
+2019-09-22 00:18:26 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/192.168.52.100:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:18:26 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(879) -Socket connection established to node01/192.168.52.100:2181, initiating session
+2019-09-22 00:18:26 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1303) -Session establishment complete on server node01/192.168.52.100:2181, sessionid = 0x16d549879ec0000, negotiated timeout = 40000
+2019-09-22 00:18:26 [ INFO] - org.apache.curator.framework.state.ConnectionStateManager -ConnectionStateManager.java(251) -State change: CONNECTED
+2019-09-22 00:18:26 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(955) -backgroundOperationsLoop exiting
+2019-09-22 00:18:26 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(693) -Session: 0x16d549879ec0000 closed
+2019-09-22 00:18:26 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(522) -EventThread shut down for session: 0x16d549879ec0000
+2019-09-22 00:18:49 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(48) -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-22 00:18:49 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(61) -Using emulated InjectSessionExpiration
+2019-09-22 00:18:49 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(308) -Starting
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:host.name=CY-20190824XGJX
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.version=1.8.0_121
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.vendor=Oracle Corporation
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.home=F:\jdk1.8.0_121\jre
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.class.path=F:\jdk1.8.0_121\jre\lib\charsets.jar;F:\jdk1.8.0_121\jre\lib\deploy.jar;F:\jdk1.8.0_121\jre\lib\ext\access-bridge-32.jar;F:\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;F:\jdk1.8.0_121\jre\lib\ext\dnsns.jar;F:\jdk1.8.0_121\jre\lib\ext\jaccess.jar;F:\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;F:\jdk1.8.0_121\jre\lib\ext\localedata.jar;F:\jdk1.8.0_121\jre\lib\ext\nashorn.jar;F:\jdk1.8.0_121\jre\lib\ext\sunec.jar;F:\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;F:\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;F:\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;F:\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\jdk1.8.0_121\jre\lib\javaws.jar;F:\jdk1.8.0_121\jre\lib\jce.jar;F:\jdk1.8.0_121\jre\lib\jfr.jar;F:\jdk1.8.0_121\jre\lib\jfxswt.jar;F:\jdk1.8.0_121\jre\lib\jsse.jar;F:\jdk1.8.0_121\jre\lib\management-agent.jar;F:\jdk1.8.0_121\jre\lib\plugin.jar;F:\jdk1.8.0_121\jre\lib\resources.jar;F:\jdk1.8.0_121\jre\lib\rt.jar;F:\project\zkCurator\target\classes;F:\apache-maven-3.6.1\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;F:\apache-maven-3.6.1\repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\apache-maven-3.6.1\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;F:\apache-maven-3.6.1\repository\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-recipes\4.2.0\curator-recipes-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-framework\4.2.0\curator-framework-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-client\4.2.0\curator-client-4.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;F:\apache-maven-3.6.1\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;F:\apache-maven-3.6.1\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;F:\apache-maven-3.6.1\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;F:\apache-maven-3.6.1\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;F:\apache-maven-3.6.1\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;F:\apache-maven-3.6.1\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;F:\apache-maven-3.6.1\repository\junit\junit\4.12\junit-4.12.jar;F:\apache-maven-3.6.1\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\IntelliJ IDEA 2017.2\lib\idea_rt.jar
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.library.path=F:\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;F:\scala\bin;F:\Git\cmd;F:\jdk1.8.0_121\bin;C:\Users\MyPC\AppData\Local\Microsoft\WindowsApps;F:\scala\bin;F:\apache-maven-3.6.1\bin;;.
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.io.tmpdir=C:\Users\MyPC\AppData\Local\Temp\
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.compiler=<NA>
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.name=Windows 10
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.arch=x86
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.version=10.0
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.name=MyPC
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.home=C:\Users\MyPC
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.dir=F:\project\zkCurator
+2019-09-22 00:18:58 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(442) -Initiating client connection, connectString=node01:2181,node02:2181,node03:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a48474
+2019-09-22 00:18:58 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(356) -Default schema
+2019-09-22 00:19:01 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/fe80:0:0:0:b549:eb92:bf6a:c8f9%2:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:19:18 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1112) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0
+2019-09-22 00:19:18 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1160) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0, closing socket connection and attempting reconnect
+2019-09-22 00:19:21 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node02:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:19:21 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node02:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:19:23 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:19:23 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:19:24 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/fe80:0:0:0:b549:eb92:bf6a:c8f9%2:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:19:43 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1112) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0
+2019-09-22 00:19:43 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1160) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0, closing socket connection and attempting reconnect
+2019-09-22 00:19:48 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node02:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:19:48 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node02:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:19:50 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:19:50 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:19:53 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/192.168.52.100:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:19:53 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(879) -Socket connection established to node01/192.168.52.100:2181, initiating session
+2019-09-22 00:19:53 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1303) -Session establishment complete on server node01/192.168.52.100:2181, sessionid = 0x16d549879ec0001, negotiated timeout = 40000
+2019-09-22 00:19:53 [ INFO] - org.apache.curator.framework.state.ConnectionStateManager -ConnectionStateManager.java(251) -State change: CONNECTED
+2019-09-22 00:19:55 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(955) -backgroundOperationsLoop exiting
+2019-09-22 00:19:55 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(693) -Session: 0x16d549879ec0001 closed
+2019-09-22 00:19:55 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(522) -EventThread shut down for session: 0x16d549879ec0001
+2019-09-22 00:21:02 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(48) -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-22 00:21:02 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(61) -Using emulated InjectSessionExpiration
+2019-09-22 00:21:02 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(308) -Starting
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:host.name=CY-20190824XGJX
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.version=1.8.0_121
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.vendor=Oracle Corporation
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.home=F:\jdk1.8.0_121\jre
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.class.path=F:\jdk1.8.0_121\jre\lib\charsets.jar;F:\jdk1.8.0_121\jre\lib\deploy.jar;F:\jdk1.8.0_121\jre\lib\ext\access-bridge-32.jar;F:\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;F:\jdk1.8.0_121\jre\lib\ext\dnsns.jar;F:\jdk1.8.0_121\jre\lib\ext\jaccess.jar;F:\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;F:\jdk1.8.0_121\jre\lib\ext\localedata.jar;F:\jdk1.8.0_121\jre\lib\ext\nashorn.jar;F:\jdk1.8.0_121\jre\lib\ext\sunec.jar;F:\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;F:\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;F:\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;F:\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\jdk1.8.0_121\jre\lib\javaws.jar;F:\jdk1.8.0_121\jre\lib\jce.jar;F:\jdk1.8.0_121\jre\lib\jfr.jar;F:\jdk1.8.0_121\jre\lib\jfxswt.jar;F:\jdk1.8.0_121\jre\lib\jsse.jar;F:\jdk1.8.0_121\jre\lib\management-agent.jar;F:\jdk1.8.0_121\jre\lib\plugin.jar;F:\jdk1.8.0_121\jre\lib\resources.jar;F:\jdk1.8.0_121\jre\lib\rt.jar;F:\project\zkCurator\target\classes;F:\apache-maven-3.6.1\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;F:\apache-maven-3.6.1\repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\apache-maven-3.6.1\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;F:\apache-maven-3.6.1\repository\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-recipes\4.2.0\curator-recipes-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-framework\4.2.0\curator-framework-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-client\4.2.0\curator-client-4.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;F:\apache-maven-3.6.1\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;F:\apache-maven-3.6.1\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;F:\apache-maven-3.6.1\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;F:\apache-maven-3.6.1\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;F:\apache-maven-3.6.1\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;F:\apache-maven-3.6.1\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;F:\apache-maven-3.6.1\repository\junit\junit\4.12\junit-4.12.jar;F:\apache-maven-3.6.1\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\IntelliJ IDEA 2017.2\lib\idea_rt.jar
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.library.path=F:\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;F:\scala\bin;F:\Git\cmd;F:\jdk1.8.0_121\bin;C:\Users\MyPC\AppData\Local\Microsoft\WindowsApps;F:\scala\bin;F:\apache-maven-3.6.1\bin;;.
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.io.tmpdir=C:\Users\MyPC\AppData\Local\Temp\
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.compiler=<NA>
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.name=Windows 10
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.arch=x86
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.version=10.0
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.name=MyPC
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.home=C:\Users\MyPC
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.dir=F:\project\zkCurator
+2019-09-22 00:21:11 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(442) -Initiating client connection, connectString=node01:2181,node02:2181,node03:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a48474
+2019-09-22 00:21:12 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(356) -Default schema
+2019-09-22 00:21:14 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:21:14 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:21:16 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/fe80:0:0:0:3211:b079:7237:b72b%2:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:21:34 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1112) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0
+2019-09-22 00:21:34 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1160) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0, closing socket connection and attempting reconnect
+2019-09-22 00:21:36 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node02:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:21:36 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node02:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:21:40 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:21:40 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:21:40 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/fe80:0:0:0:3211:b079:7237:b72b%2:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:22:00 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1112) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0
+2019-09-22 00:22:00 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1160) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0, closing socket connection and attempting reconnect
+2019-09-22 00:22:02 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node02:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:22:02 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node02:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:22:06 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:22:06 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:22:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/192.168.52.100:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:22:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(879) -Socket connection established to node01/192.168.52.100:2181, initiating session
+2019-09-22 00:22:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1303) -Session establishment complete on server node01/192.168.52.100:2181, sessionid = 0x16d549879ec0003, negotiated timeout = 40000
+2019-09-22 00:22:07 [ INFO] - org.apache.curator.framework.state.ConnectionStateManager -ConnectionStateManager.java(251) -State change: CONNECTED
+2019-09-22 00:22:11 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(955) -backgroundOperationsLoop exiting
+2019-09-22 00:22:11 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(693) -Session: 0x16d549879ec0003 closed
+2019-09-22 00:22:11 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(522) -EventThread shut down for session: 0x16d549879ec0003
+2019-09-22 00:22:58 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(48) -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-22 00:22:58 [ INFO] - org.apache.curator.utils.Compatibility -Compatibility.java(61) -Using emulated InjectSessionExpiration
+2019-09-22 00:22:58 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(308) -Starting
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:host.name=CY-20190824XGJX
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.version=1.8.0_121
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.vendor=Oracle Corporation
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.home=F:\jdk1.8.0_121\jre
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.class.path=F:\jdk1.8.0_121\jre\lib\charsets.jar;F:\jdk1.8.0_121\jre\lib\deploy.jar;F:\jdk1.8.0_121\jre\lib\ext\access-bridge-32.jar;F:\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;F:\jdk1.8.0_121\jre\lib\ext\dnsns.jar;F:\jdk1.8.0_121\jre\lib\ext\jaccess.jar;F:\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;F:\jdk1.8.0_121\jre\lib\ext\localedata.jar;F:\jdk1.8.0_121\jre\lib\ext\nashorn.jar;F:\jdk1.8.0_121\jre\lib\ext\sunec.jar;F:\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;F:\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;F:\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;F:\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\jdk1.8.0_121\jre\lib\javaws.jar;F:\jdk1.8.0_121\jre\lib\jce.jar;F:\jdk1.8.0_121\jre\lib\jfr.jar;F:\jdk1.8.0_121\jre\lib\jfxswt.jar;F:\jdk1.8.0_121\jre\lib\jsse.jar;F:\jdk1.8.0_121\jre\lib\management-agent.jar;F:\jdk1.8.0_121\jre\lib\plugin.jar;F:\jdk1.8.0_121\jre\lib\resources.jar;F:\jdk1.8.0_121\jre\lib\rt.jar;F:\project\zkCurator\target\classes;F:\apache-maven-3.6.1\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\apache-maven-3.6.1\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;F:\apache-maven-3.6.1\repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\apache-maven-3.6.1\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;F:\apache-maven-3.6.1\repository\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-recipes\4.2.0\curator-recipes-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-framework\4.2.0\curator-framework-4.2.0.jar;F:\apache-maven-3.6.1\repository\org\apache\curator\curator-client\4.2.0\curator-client-4.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;F:\apache-maven-3.6.1\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;F:\apache-maven-3.6.1\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;F:\apache-maven-3.6.1\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;F:\apache-maven-3.6.1\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;F:\apache-maven-3.6.1\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;F:\apache-maven-3.6.1\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;F:\apache-maven-3.6.1\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;F:\apache-maven-3.6.1\repository\junit\junit\4.12\junit-4.12.jar;F:\apache-maven-3.6.1\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\IntelliJ IDEA 2017.2\lib\idea_rt.jar
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.library.path=F:\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;F:\scala\bin;F:\Git\cmd;F:\jdk1.8.0_121\bin;C:\Users\MyPC\AppData\Local\Microsoft\WindowsApps;F:\scala\bin;F:\apache-maven-3.6.1\bin;;.
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.io.tmpdir=C:\Users\MyPC\AppData\Local\Temp\
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:java.compiler=<NA>
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.name=Windows 10
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.arch=x86
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:os.version=10.0
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.name=MyPC
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.home=C:\Users\MyPC
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -Environment.java(100) -Client environment:user.dir=F:\project\zkCurator
+2019-09-22 00:23:07 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(442) -Initiating client connection, connectString=node01:2181,node02:2181,node03:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a48474
+2019-09-22 00:23:07 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(356) -Default schema
+2019-09-22 00:23:10 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:23:10 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:23:12 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/fe80:0:0:0:3211:b079:7237:b72b%2:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:23:30 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1112) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0
+2019-09-22 00:23:30 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1160) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0, closing socket connection and attempting reconnect
+2019-09-22 00:23:32 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node02:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:23:32 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node02:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:23:35 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:23:35 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:23:36 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/fe80:0:0:0:b549:eb92:bf6a:c8f9%2:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:23:56 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1112) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0
+2019-09-22 00:23:56 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1160) -Client session timed out, have not heard from server in 20000ms for sessionid 0x0, closing socket connection and attempting reconnect
+2019-09-22 00:23:58 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node02:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:23:58 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node02:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:24:02 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node03:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:24:02 [ WARN] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1168) -Session 0x0 for server node03:2181, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064)
+2019-09-22 00:24:05 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1029) -Opening socket connection to server node01/192.168.52.100:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-22 00:24:05 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(879) -Socket connection established to node01/192.168.52.100:2181, initiating session
+2019-09-22 00:24:05 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(1303) -Session establishment complete on server node01/192.168.52.100:2181, sessionid = 0x16d549879ec0004, negotiated timeout = 40000
+2019-09-22 00:24:05 [ INFO] - org.apache.curator.framework.state.ConnectionStateManager -ConnectionStateManager.java(251) -State change: CONNECTED
+2019-09-22 00:24:07 [ INFO] - org.apache.curator.framework.imps.CuratorFrameworkImpl -CuratorFrameworkImpl.java(955) -backgroundOperationsLoop exiting
+2019-09-22 00:24:07 [ INFO] - org.apache.zookeeper.ZooKeeper -ZooKeeper.java(693) -Session: 0x16d549879ec0004 closed
+2019-09-22 00:24:07 [ INFO] - org.apache.zookeeper.ClientCnxn -ClientCnxn.java(522) -EventThread shut down for session: 0x16d549879ec0004
