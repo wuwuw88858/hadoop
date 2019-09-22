@@ -2,6 +2,10 @@ package zookeeper;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
+import org.apache.curator.framework.recipes.cache.ChildData;
+import org.apache.curator.framework.recipes.cache.TreeCache;
+import org.apache.curator.framework.recipes.cache.TreeCacheEvent;
+import org.apache.curator.framework.recipes.cache.TreeCacheListener;
 import org.apache.curator.retry.RetryNTimes;
 import org.apache.zookeeper.CreateMode;
 
@@ -109,15 +113,82 @@ public class CuratorClient {
         }
     }
 
+    /**
+     * 删除节点
+     * */
+
+    public static void delZNodeData() {
+        String delPath = "/kkb";
+        print("delete", delPath);
+        try {
+            client.delete().forPath(delPath);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        print("ls", "/");
+        try {
+            client.getChildren().forPath("/");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 监听器 watch
+     *  /kkb的节点监听策略
+     *  如果需要监听子节点的话。需要将TreeCache -> PathChildrenCache
+     *                              TreeCacheListener - > PathChildrenCacheListener
+     * */
+    public static void watchNode() {
+        //设置节点的cacheNode
+        TreeCache treeCache = new TreeCache(client, "/kkb");
+
+        //添加监听事件
+        treeCache.getListenable().addListener(new TreeCacheListener() {
+            public void childEvent(CuratorFramework curatorFramework, TreeCacheEvent event) throws Exception {
+                ChildData data = event.getData();   //获取监听事件的节点数据
+                System.out.println("监听事件 data:" + data);
+                if (data != null) {
+                    switch (event.getType()) {
+                        case NODE_ADDED:
+                            System.out.println("监听事件-> node_added:" + data.getPath() + " 数据：" + new String(data.getData()));
+                            break;
+
+                        case NODE_REMOVED:
+                            System.out.println("监听事件-> node_remove:" + data.getPath() + " 数据：" + new String(data.getData()));
+                            break;
+
+                        case NODE_UPDATED:
+                            System.out.println("监听事件-> node_update:" + data.getPath() + " 数据：" + new String(data.getData()));
+                            break;
+
+                        default:
+                            break;
+                    }
+                } else {
+                    System.out.println("data is null");
+                }
+
+            }
+        });
+        try {
+            treeCache.start();  //开始监听
+            Thread.sleep(600000);
+            treeCache.close();  //关闭监听
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 
-
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         init();
         //  createPersistentNode();
         // createEphemeralNode();
         // queryNodeMsg();
-        modifyZNodeData();
+       // modifyZNodeData();
+        watchNode();
+        Thread.sleep(600000);
         close();
     }
 
