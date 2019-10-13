@@ -4,6 +4,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.lib.HashPartitioner;
+import org.apache.hadoop.mapreduce.InputFormat;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
@@ -37,7 +38,7 @@ import java.io.IOException;
  *      * */
 public class MyMap extends Mapper<LongWritable, Text, Text, IntWritable>{
 
-
+    InputFormat
 
     /**
      * 针对于split中每一行内容，都会执行一次map任务
